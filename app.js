@@ -73,9 +73,60 @@
 // var string = num.toString()
 // document.write(string)
 
-// Q # 13
+// // Q # 13
+// var chr = "@!,."
+// var userName = prompt("enter your name")
+// var matchFound = "no"
+// for(var i=0; i<=chr.length; i++);
+// if(userName === chr[i]){
+//     matchFound = "yes"
+//     alert("please enter a valid username")
+// }
+// if(matchFound === "no"){
+//     alert("ok")
+// }
 
+// // Q # 14
+// var bakeryItem = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("search cookies").toLowerCase()
+// var match = false
+// for(var i=0; i<=bakeryItem.length; i++)
+// if(userInput === bakeryItem[i]){
+//     match = true
+//     document.write(userInput + " is <b>available</b> at index " + i + " in our bakery")
+// }
+//     if(match === false){
+//     document.write("We are sorry. " + userInput + " is <b>not available</b> in our bakery")
+// }
 
+// Q # 15
+// CANT
 
+// // Q # 16
+// var university = "University of Karachi";
+// var arr = university.split("")
+// var tempArr = [] 
+// for(var i=0; i < university.length; i++) {
+//     console.log(arr[i])
+// tempArr.push(arr[i])
+// }
+// document.write(tempArr.join(""))
 
+// Q # 17
+// var userInput = prompt("type something")
+// document.write("User Input: " + userInput)
+// document.write("</br>")
+// var copy = userInput.slice(-1)
+// document.write("Last character of  input: " + copy)
+
+// Q # 18 ?
+// var text = "The quick brown fox jumps over the lazy dog"
+// text = text.toLowerCase()
+// var text1 = text.split(" ")
+// for(var i=0; i <= text1.length; i++){
+//     if(text1[i] === "the"){
+//         document.write(text1.lastIndexOf("the"))
+//         break
+//     }
+// }
 
